@@ -8,7 +8,7 @@
 // Interrupt service routine that reads a character sent by the PC
 // and interprets that character to perform a function
 //
-// Inputs : USART3_RXC_vect: the interrupt vector for USART3’s
+// Inputs : USART3_RXC_vect: the interrupt vector for USART3â€™s
 // RXC pin
 //
 // Outputs : none
