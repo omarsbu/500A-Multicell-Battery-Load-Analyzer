@@ -2,7 +2,7 @@
 
 ISR(ADC0_RESRDY_vect)
 {
-	// Empty ISR — needed to wake from ADC sleep mode
+	// Empty ISR â€” needed to wake from ADC sleep mode
 }
 
 //***************************************************************************
