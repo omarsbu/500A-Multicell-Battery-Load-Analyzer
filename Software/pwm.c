@@ -2,10 +2,10 @@
 
 //***************************************************************************
 //
-// Function Name : "Fan_PWM_init"
+// Function Name : "PWM_init"
 // Target MCU : AVR128DB48
 // DESCRIPTION
-// This function initializes the timer counter module for PWM output on PB0
+// This function initializes the timer counter module for PWM output on PC4
 //
 // Inputs : none
 //
