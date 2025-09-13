@@ -32,7 +32,7 @@ void test_error_check(void)
 	}						
 	
 	/* If voltage < 0.1V, no battery connection -> move to ERROR state */
-	if (voltage > 20)
+	if (voltage < 0.1)
 	{
 		TEST_CURRENT_STATE = ERROR;		// Move to ERROR state
 		ERROR_CODE = CONNECTION_ERROR;	// Error code identifier
@@ -140,3 +140,4 @@ void display_safety_error(void)
 	sprintf(dsp_buff[3], "for testing...      ");
 	update_lcd();
 }
+
